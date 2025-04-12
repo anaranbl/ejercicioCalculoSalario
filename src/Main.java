@@ -3,22 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 Scanner anaranbl = new Scanner(System.in);
-String nombreEmpleado = "";
-String documentoEmpleado ="";
-        double salarioBruto = 0;
-        double salarioNeto = 0;
-        double valorHora = 0;
-        double valorTotal = 0;
-        double cantidadHoras = 0;
-        double deduccionPension = 0;
-        double deduccionSalud = 0;
-        double horasExtras = 0;
-        double valorHorasExtras = 0;
-        double bonificacion = 0;
-        double fondoSolidaridadPensional = 0;
-        double valorRetencionFuente = 0;
-        double auxilioTransporte = 0;
-        double salarioMinimo = 0;
+
+
+String nombreEmpleado, documentoEmpleado ="";
+        double salarioBruto, salarioNeto = 0, valorHora = 0, valorTotal = 0, cantidadHoras = 0;
+        double deduccionPension = 0, deduccionSalud = 0, horasExtras = 0,valorHorasExtras = 0;
+        double bonificacion = 0, fondoSolidaridadPensional = 0, valorRetencionFuente = 0;
+        double auxilioTransporte = 0, salarioMinimo = 0;
 
         System.out.println("Ingrese el nombre del empleado:");
         nombreEmpleado =anaranbl.nextLine();
